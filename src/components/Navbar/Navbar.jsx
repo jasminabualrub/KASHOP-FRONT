@@ -18,9 +18,9 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{  }}>
             KASHOP
           </Typography>
-          <Box  sx={{ display:{xs:'none',sm:'flex'},
+          <Box  sx={{ 
              flexGrow: 1,
-    display: 'flex',
+   display:{xs:'none',sm:'flex'},
     gap: 5,
     alignItems: 'center',
     justifyContent: 'center'
